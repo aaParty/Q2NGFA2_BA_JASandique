@@ -1,0 +1,128 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.group
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.group1
+{
+    display: flex;
+    align-items: center;
+}
+
+.group2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 0px;
+}
+
+#line
+{
+    margin: 10px;
+    padding: 1px;
+    background-color: #000000;
+    border-radius: 5px;
+    width: 30px;
+    height: 2px;
+    position: relative;
+}
+
+#line2
+{
+    margin: 0px;
+    padding: 1px;
+    background-color: #220c35;
+    width: 360px;
+    height: 1px;
+    position: relative;
+    margin-left: -82.5px;
+}
+
+nav
+{
+    background: linear-gradient(to left, rgb(82, 23, 133), rgb(93, 24, 154), rgb(91, 36, 139), rgb(89, 30, 141), rgb(80, 20, 133), rgb(68, 26, 107));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 30px;
+}
+
+#sitename
+{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#navlinks
+{
+    text-decoration: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: black;
+    margin: 5px;
+}
+
+.banner
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/city.jpg);
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.footer
+{
+    margin: 0px;
+    padding: 15px;
+    background-image: linear-gradient(to right, rgb(105, 26, 174), rgb(93, 24, 154), rgb(80, 19, 134), rgb(59, 15, 97), rgb(60, 16, 99), rgb(43, 11, 72));
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sprite
+{
+    background: url('images/sprite3.png') no-repeat;
+	width: 67px;
+	height: 66px;
+}
+
+#twitter
+{
+    background-position: -66px -72px;
+}
+
+#discord
+{
+    background-position: -216px -146px;
+}
+
+#facebook
+{
+    background-position: -439px -146px;
+}
+
+@media screen and (max-width: 640px)
+{
+    
+}
